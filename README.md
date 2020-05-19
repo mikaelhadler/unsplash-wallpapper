@@ -1,6 +1,6 @@
 # Unsplash Wallpaper
 
-This is a script to set unsplash wallpapper using unsplash api to get random images or random user images likes.
+This is a script to set you linux box wallpapper using Unsplash api to get a random image or random image that the selected user likes.
 
 ## Requirements
 
@@ -10,19 +10,21 @@ This is a script to set unsplash wallpapper using unsplash api to get random ima
 
 ## How to use
 
-For use this script it's simple, just clone this repository
+It's simple to use this script, just clone this repository:
 ```
 $ git clone https://github.com/mikaelhadler/unsplash-wallpapper
 ```
 
-Give permission to execute this script
+Give permission to execute the script:
 ```
 $ cd unsplash-wallpapper
 $ chmod +x unsplash-wallpapper.sh
 ```
 
-That's it, for execute your script, call in your bash terminal:
+To execute your script, call it in your bash terminal:
 
 ```
 $ ./unsplash-wallpapper.sh
 ```
+
+Alternativelly you can include it on your init files so it changes whenever you login or you can create a menu item shortcut so you can execute it on the GUI.

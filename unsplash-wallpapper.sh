@@ -3,7 +3,7 @@
 Help()
 {
    # Display Help
-   echo "This options is avaiable to interacte with your script."
+   echo "These options are avaiable to interact with this script."
    echo
    echo "Syntax: sh unsplash-wallpapper <username-unsplash> <resolution-image>"
    echo "options:"
@@ -37,7 +37,7 @@ if [ "" = "$unsplash_user" ]; then
   wget "https://source.unsplash.com/random/${resolution_wallpapper}" -O $HOME/tmp/wallpaper.jpg
   feh --bg-scale $HOME/tmp/wallpaper.jpg > /dev/null 2>&1 &
 else
-  echo 'Random Image User' >&2
+  echo 'Random User Liked Image' >&2
   wget "https://source.unsplash.com/user/${unsplash_user}/likes/${resolution_wallpapper}" -O $HOME/tmp/wallpaper.jpg
   feh --bg-scale $HOME/tmp/wallpaper.jpg > /dev/null 2>&1 &
 fi
