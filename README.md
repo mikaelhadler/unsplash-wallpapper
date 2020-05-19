@@ -1,6 +1,6 @@
 # Unsplash Wallpaper
 
-This is a script to set you linux box wallpapper using Unsplash api to get a random image or random image that the logged in user likes.
+This is a script to set you linux box wallpapper using Unsplash api to get a random image or random image that the selected user likes.
 
 ## Requirements
 
